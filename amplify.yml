@@ -5,7 +5,7 @@ applications:
       phases:
         build:
           commands:
-            - nvm install 17
+            - nvm install 12
             - yarn install --frozen-lockfile
             - yarn build
       artifacts:
